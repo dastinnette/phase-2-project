@@ -1,9 +1,19 @@
 import ItemCard from './ItemCard'
-function ItemContainer() {
+
+function ItemContainer({ snapshots }) {
+
+    const renderSnapShots = snapshots.map((snapshot) => {
+        return (
+            <ItemCard
+                key={snapshot.id}
+                snapshot={snapshot}
+            />
+        )
+    })
 
     return(
-        <ul className="cards">
-            {" render ItemCards Here"}
+        <ul>
+            {renderSnapShots}
         </ul>
     );
 }
