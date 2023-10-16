@@ -5,7 +5,7 @@ import ItemContainer from './ItemContainer'
 
 function App() {
   const [snapshots, setSnapshots] = useState([])
-
+  const [searchValue,setSearchValue]=useState("")
   const getSnapshots = () => {
     fetch("http://localhost:6001/snapshots")
       .then((response) => response.json())
@@ -16,9 +16,10 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar searchValue={searchValue} setSearchValue={setSearchValue}/>
       <ItemContainer
         snapshots={snapshots}
+        searchValue={searchValue}
       />
     </div>
   );

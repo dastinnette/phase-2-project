@@ -1,12 +1,12 @@
 import NewForm from './NewForm';
 import Search from './Search';
 
-function NavBar() {
+function NavBar({searchValue,setSearchValue}) {
 
     return(
         <div>
             <NewForm/>
-            <Search/>
+            <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
         </div>
     );
 }
