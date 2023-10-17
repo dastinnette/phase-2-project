@@ -1,7 +1,8 @@
 import '../App.css';
+import { Outlet } from 'react-router-dom';
 import React, { useState, useEffect } from "react"
 import NavBar from './NavBar';
-import ItemContainer from './ItemContainer'
+//import ItemContainer from './ItemContainer'
 
 function App() {
   const [snapshots, setSnapshots] = useState([])
@@ -20,18 +21,17 @@ function App() {
       ...currentStateSnapshots,
     ])
   }
-
+  const context = {
+    snapshots,
+    searchValue,
+    onNewSnapshot,
+    searchValue,
+    setSearchValue,
+  }
   return (
     <div className="App">
-      <NavBar 
-        searchValue={searchValue} 
-        setSearchValue={setSearchValue}
-        onNewSnapshot={onNewSnapshot}
-      />
-      <ItemContainer
-        snapshots={snapshots}
-        searchValue={searchValue}
-      />
+      <NavBar />
+      <Outlet context={context}/>
     </div>
   );
 }

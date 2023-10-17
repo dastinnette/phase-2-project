@@ -1,6 +1,9 @@
 import ItemCard from './ItemCard'
+import { useOutletContext } from 'react-router-dom';
+import Search from './Search';
+function ItemContainer() {
 
-function ItemContainer({ searchValue,snapshots }) {
+    const { searchValue,snapshots,setSearchValue } = useOutletContext();
 
     const foundSnapShots = snapshots.filter((snapshot)=> 
         snapshot.explanation.toLowerCase().includes(searchValue.toLowerCase()) || 
@@ -15,6 +18,7 @@ function ItemContainer({ searchValue,snapshots }) {
     ))
     return(
         <ul>
+            <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
             {renderSnapShots}
         </ul>
     );

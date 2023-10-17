@@ -1,12 +1,11 @@
-import NewForm from './NewForm';
-import Search from './Search';
+import { NavLink } from 'react-router-dom';
 
-function NavBar({ searchValue, setSearchValue, onNewSnapshot }) {
+function NavBar() {
 
     return(
         <div>
-            <NewForm onNewSnapshot={onNewSnapshot}/>
-            <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
+            <NavLink to={"/Gallery"}>Gallery</NavLink>
+            <NavLink to={"/New"}>NewForm</NavLink>
         </div>
     );
 }
