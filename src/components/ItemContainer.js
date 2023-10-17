@@ -1,16 +1,16 @@
 import ItemCard from './ItemCard'
 
-function ItemContainer({ snapshots }) {
+function ItemContainer({ searchValue,snapshots }) {
 
-    const renderSnapShots = snapshots.map((snapshot) => {
-        return (
+    const foundSnapShots = snapshots.filter((snapshot)=> 
+    snapshot.explanation.toLowerCase().includes(searchValue.toLowerCase()) || snapshot.title.toLowerCase().includes(searchValue.toLowerCase()) || snapshot.date.toLowerCase().includes(searchValue.toLowerCase()))
+
+    const renderSnapShots = foundSnapShots.map((snapshot) => (
             <ItemCard
                 key={snapshot.id}
                 snapshot={snapshot}
             />
-        )
-    })
-
+    ))
     return(
         <ul>
             {renderSnapShots}

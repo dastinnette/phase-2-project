@@ -9,6 +9,8 @@ function ItemCard({ snapshot }){
                 alt={title}
             />
             <h1>{title}</h1>
+            <p>{date}</p>
+            <p>{explanation}</p>
         </div>
     );
 }
