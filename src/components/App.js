@@ -25,13 +25,12 @@ function App() {
     snapshots,
     searchValue,
     onNewSnapshot,
+    searchValue,
+    setSearchValue,
   }
   return (
     <div className="App">
-      <NavBar 
-        searchValue={searchValue} 
-        setSearchValue={setSearchValue}
-      />
+      <NavBar />
       <Outlet context={context}/>
     </div>
   );
