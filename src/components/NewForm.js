@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { useOutletContext,useNavigate } from 'react-router-dom';
 const initialState = {
     title: "",
     hdurl: "",
@@ -7,7 +7,10 @@ const initialState = {
     date: ""
 }
 
-function NewForm({ onNewSnapshot }) {
+function NewForm() {
+
+  const { onNewSnapshot } = useOutletContext();
+  const navigate = useNavigate()
     const [formData, setFormData] = useState(initialState) 
     const { date, explanation, hdurl, title } = formData
 
@@ -36,6 +39,7 @@ function NewForm({ onNewSnapshot }) {
           .then((newSnapshot) => {
             onNewSnapshot(newSnapshot)
             setFormData(initialState)
+            navigate("/Gallery")
           })
       }
 
