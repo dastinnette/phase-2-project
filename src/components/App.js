@@ -14,9 +14,20 @@ function App() {
 
   useEffect(getSnapshots, [])
 
+  function onNewSnapshot(newSnapshot) {
+    setSnapshots((currentStateSnapshots) => [
+      newSnapshot, 
+      ...currentStateSnapshots,
+    ])
+  }
+
   return (
     <div className="App">
-      <NavBar searchValue={searchValue} setSearchValue={setSearchValue}/>
+      <NavBar 
+        searchValue={searchValue} 
+        setSearchValue={setSearchValue}
+        onNewSnapshot={onNewSnapshot}
+      />
       <ItemContainer
         snapshots={snapshots}
         searchValue={searchValue}
