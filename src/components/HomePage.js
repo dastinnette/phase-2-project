@@ -2,7 +2,16 @@ import React from "react";
 
 function HomePage() {
     return(
-        <h1>Welcome To The Project</h1>
+        <main className="background" style={{
+            height: "100vh",
+            backgroundImage:'url(../AppBackground.jpg)',
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            color: "white", 
+        }}>
+            <h1>Welcome to StarViewer</h1>
+            <p>checkout our gallery and come back</p>
+        </main>
     )
 }
 
