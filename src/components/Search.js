@@ -5,7 +5,7 @@ function Search({searchValue,setSearchValue}) {
     }
     return(
         <div>
-            <input type='text' placeholder="SearchItem" value={searchValue} onChange={handleSearch}/>
+            <input className="searchBar" type='text' placeholder="Search Starviews" value={searchValue} onChange={handleSearch}/>
         </div>
     );
 }

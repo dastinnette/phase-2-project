@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { useOutletContext,useNavigate } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
+
 const initialState = {
     title: "",
     hdurl: "",
@@ -44,24 +48,27 @@ function NewForm() {
       }
 
     return(
-        <div>
-            <h2>New Snapshot</h2>
-            <form onSubmit={handleSubmit}>
-                <input type="text" name="title" placeholder="Snapshot title" 
-                    value={title} onChange={handleChange}
-                />
-                <input type="text" name="hdurl" placeholder="Image URL" 
-                    value={hdurl} onChange={handleChange}
-                />
-                <input type="text" name="explanation" placeholder="Explanation" 
-                    value={explanation} onChange={handleChange}
-                />
-                <input type="text" name="date" placeholder="Date" 
-                    value={date} onChange={handleChange}
-                />
-                <button type="submit">Add Snapshot</button>
-            </form>
-        </div>
+      <Form className="input-form" onSubmit={handleSubmit}>
+        <Form.Group className="mb-3">
+          <Form.Label>Snapshot title</Form.Label>
+          <Form.Control type="text" name="title" placeholder="Snapshot title" value={title} onChange={handleChange}/>
+        </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Label>Image URL</Form.Label>
+          <Form.Control type="text" name="hdurl" placeholder="Image URL" value={hdurl} onChange={handleChange}/>
+        </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Label>Explanation</Form.Label>
+          <Form.Control type="text" name="explanation" placeholder="Explanation" value={explanation} onChange={handleChange}/>
+        </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Label>Date</Form.Label>
+          <Form.Control type="text" name="date" placeholder="Date" value={date} onChange={handleChange}/>
+        </Form.Group>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </Form>
     )
 }
 

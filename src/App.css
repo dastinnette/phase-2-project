@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.cards {
+  padding: 2em;
+}
+
+.searchBar {
+  width: 30%
+}
+
+.nav-links {
+  padding-right: 1em;
+}
+
+.input-form {
+  max-width: 40%;
+  margin-left: 30%;
+  margin-top: 5em;
+}

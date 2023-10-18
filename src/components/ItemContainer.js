@@ -1,6 +1,9 @@
 import ItemCard from './ItemCard'
 import { useOutletContext } from 'react-router-dom';
 import Search from './Search';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
 function ItemContainer() {
 
     const { searchValue,snapshots,setSearchValue } = useOutletContext();
@@ -16,10 +19,15 @@ function ItemContainer() {
                 snapshot={snapshot}
             />
     ))
+
     return(
         <ul>
             <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
-            {renderSnapShots}
+            <Container>
+                <Row>
+                    {renderSnapShots}
+                </Row>
+            </Container>
         </ul>
     );
 }
