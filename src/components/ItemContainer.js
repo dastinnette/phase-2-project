@@ -21,7 +21,7 @@ function ItemContainer() {
     ))
 
     return(
-        <ul>
+        <ul className='item-container'>
             <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
             <Container>
                 <Row>
