@@ -56,10 +56,11 @@ function NewForm() {
         <Form.Group className="mb-3">
           <Form.Label>Image URL</Form.Label>
           <Form.Control type="text" name="hdurl" placeholder="Image URL" value={hdurl} onChange={handleChange}/>
+          <img src={hdurl} className="img-preview"/>
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Explanation</Form.Label>
-          <Form.Control type="text" name="explanation" placeholder="Explanation" value={explanation} onChange={handleChange}/>
+          <Form.Control as="textarea" rows={3} name="explanation" placeholder="Explanation" value={explanation} onChange={handleChange}/>
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Date</Form.Label>

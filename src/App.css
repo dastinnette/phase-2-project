@@ -74,3 +74,7 @@
 .detail-title {
   padding-top: 1em;
 }
+
+.img-preview {
+  max-width: 85%;
+}
