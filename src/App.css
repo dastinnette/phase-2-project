@@ -42,7 +42,7 @@
 }
 
 .searchBar {
-  width: 30%
+  width: 30%;
 }
 
 .nav-links {
@@ -53,4 +53,20 @@
   max-width: 40%;
   margin-left: 30%;
   margin-top: 5em;
+}
+
+.detail-image {
+  max-width: 80%;
+  padding-top: 3em;
+}
+
+.detail-explanation {
+  max-width: 70%;
+  margin-left: 15%;
+  text-align: left;
+  padding-bottom: 3em;
+}
+
+.detail-title {
+  padding-top: 1em;
 }

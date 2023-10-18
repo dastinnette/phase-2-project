@@ -8,13 +8,13 @@ function DetailedPage(){
 
     return(
         <div>
-            <img 
+            <img className="detail-image"
             src={snapshot?.hdurl}
             alt={snapshot?.title}
         />
-        <h1>{snapshot?.title}</h1>
+        <h1 className="detail-title">{snapshot?.title}</h1>
         <p>{snapshot?.date}</p>
-        <p>{snapshot?.explanation}</p>
+        <p className="detail-explanation">{snapshot?.explanation}</p>
     </div>
     )
 }
