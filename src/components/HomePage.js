@@ -7,7 +7,7 @@ function HomePage() {
             backgroundImage:'url(../AppBackground.jpg)',
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            color: "white", 
+            color: "#00B8A9",
         }}>
             <h1>Welcome to StarViewer</h1>
             <p>checkout our gallery and come back</p>
