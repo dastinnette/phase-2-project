@@ -10,7 +10,7 @@ function ItemCard({ snapshot }){
     }
     return(
         <Col xs={6} md={3} className="cards">
-            <Card style={{ width: '20rem' }}>
+            <Card style={{ width: '20rem',color:"#000000",boxShadow: '0 9px 10px rgba(0, 0, 0, 1.5)' }}>
                 <Card.Img style={{ height: '18rem' }} variant="top" src={hdurl} alt={title} onClick={handleImageClick} />  
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>{date}</Card.Text>

@@ -13,7 +13,7 @@ function DetailedPage(){
             alt={snapshot?.title}
         />
         <h1 className="detail-title">{snapshot?.title}</h1>
-        <p>{snapshot?.date}</p>
+        <p className="detail-date">{snapshot?.date}</p>
         <p className="detail-explanation">{snapshot?.explanation}</p>
     </div>
     )
