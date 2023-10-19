@@ -1,6 +1,6 @@
 import {useOutletContext} from "react-router-dom";
 
-function FavoriteItem({ favorite }){
+function FavoriteItem({ favorite, draggable, onMouseDown, onMouseUp, onMouseMove, onTouchStart, onTouchEnd, onTouchMove }){
     const { setFavoritesBar } = useOutletContext();
     const { id, hdurl} = favorite
     function handleFavoriteClick(){
@@ -16,7 +16,18 @@ function FavoriteItem({ favorite }){
     }
     } 
     return(
-        <img className="image" src={hdurl} alt={id} draggable="false" onClick={handleFavoriteClick}/>  
+        <img
+            className="image"
+            src={hdurl}
+            alt={id}
+            draggable={draggable}
+            onMouseDown={onMouseDown}
+            onMouseUp={onMouseUp}
+            onMouseMove={onMouseMove}
+            onTouchStart={onTouchStart}
+            onTouchEnd={onTouchEnd}
+            onTouchMove={onTouchMove}
+            onClick={handleFavoriteClick}/>  
     );
 }
 
