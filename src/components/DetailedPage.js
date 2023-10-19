@@ -24,10 +24,8 @@ function DetailedPage(){
     let imgCheck;
     if (snapshot?.media_type === "video") {
         imgCheck = (<iframe className="detail-image" src={snapshot?.url} alt={snapshot?.title}  />)
-    } else if (snapshot?.media_type === "image"){imgCheck = (<img className="detail-image" src={snapshot?.hdurl} alt={snapshot?.title}/>)
-    } else {
-        imgCheck = (<><div>Sorry! cannot load :</div><div>media_type:{snapshot?.media_type}<img src={""}/></div></>)
-    }
+    } else {imgCheck = (<img className="detail-image" src={snapshot?.hdurl} alt={snapshot?.title}/>)
+    } 
     return(
         <div>
             <div>

@@ -11,11 +11,9 @@ function ItemCard({ snapshot }){
     let imgCheck;
     if (media_type === "video") {
         imgCheck = (<iframe style={{ height: '18rem' }} variant="top" src={url} alt={title}  />)
-    } else if (media_type === "image"){
-        imgCheck = (<Card.Img style={{ height: '18rem' }} variant="top" src={hdurl} alt={title} onClick={handleImageClick} />)
     } else {
-        imgCheck = (<><div>Sorry! cannot load :</div><div>media_type:{media_type}<img src={""}/></div></>)
-    }
+        imgCheck = (<Card.Img style={{ height: '18rem' }} variant="top" src={hdurl} alt={title} onClick={handleImageClick} />)
+    } 
     return(
         <Col xs={6} md={3} className="cards">
             <Card style={{ width: '20rem',color:"#000000",boxShadow: '0 9px 10px rgba(0, 0, 0, 1.5)' }}>
