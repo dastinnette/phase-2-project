@@ -54,9 +54,15 @@
   padding-right: 1em;
   color:#FFD100;
 }
+
+.home-link { 
+  color:#FFD100;
+}
+
 .active {
   color:#A600FF;
 }
+
 .input-form {
   max-width: 40%;
   margin-left: 30%;
