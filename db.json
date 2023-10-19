@@ -1,67 +1,5 @@
 {
-  "favorites": [
-    {
-      "id": 2,
-      "copyright": "Mike Rosinski",
-      "date": "2011-08-05",
-      "explanation": "Fix your digital camera to a tripod, start a long series of exposures, and you too can record star trails. The concentric arcs traced by the stars as planet Earth rotates on its axis often produce dreamlike scenes in otherwise familiar situations. Fall asleep, though, and the results might surprise you. Setting up on a summer night, photographer Mike Rosinski began his exposures, initially planning to capture about 45-55 minutes worth of star trails from his yard in Hartland, Michigan, USA. But he dozed, only to awaken some 3 hours later to find his camera had continued to run until the battery died. Composing the resulting images, the graceful concentric star trails were expected, along with light from a late rising Moon glinting on windows. Still, as he slept on the warm night a blizzard of yellow streaks flooded the scene, not left by fairies but fireflies.",
-      "hdurl": "https://apod.nasa.gov/apod/image/1108/FirefliesStartrails_rosinski.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "A Summer Night's Dream",
-      "url": "https://apod.nasa.gov/apod/image/1108/FirefliesStartrails_rosinski900.jpg"
-    },
-    {
-      "id": 9,
-      "date": "2017-12-28",
-      "explanation": "Massive stars in our Milky Way Galaxy live spectacular lives.  Collapsing from vast cosmic clouds, their nuclear furnaces ignite and create heavy elements in their cores. After a few million years, the enriched material is blasted back into interstellar space where star formation can begin anew. The expanding debris cloud known as Cassiopeia A is an example of this final phase of the stellar life cycle. Light from the explosion which created this supernova remnant would have been first seen in planet Earth's sky about 350 years ago, although it took that light about 11,000 years to reach us. This false-color Chandra X-ray Observatory image shows the still hot filaments and knots in the Cassiopeia A remnant. High-energy emission from specific elements has been color coded, silicon in red, sulfur in yellow, calcium in green and iron in purple, to help astronomers explore the recycling of our galaxy's star stuff - Still expanding, the blast wave is seen as the blue outer ring. The sharp X-ray image, spans about 30 light-years at the estimated distance of Cassiopeia A. The bright speck near the center is a neutron star, the incredibly dense, collapsed remains of the massive stellar core.",
-      "hdurl": "https://apod.nasa.gov/apod/image/1712/casa_life.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "Recycling Cassiopeia A",
-      "url": "https://apod.nasa.gov/apod/image/1712/casa_life.jpg"
-    },
-    {
-      "id": 18,
-      "copyright": "Tony Rowell",
-      "date": "2009-11-19",
-      "explanation": "erie spires of rock rise from shore of Mono Lake in the foreground of this early morning skyscape. The salty, mineral-laden lake is located in California's eastern Sierra Nevada mountain range and the spindly rock formations are naturally formed limestone towers called tufa. In the scene, recorded near the peak of the annual Leonid meteor shower (now subsiding) on November 17th, a meteor trails through the frigid predawn sky. Arcturus is the brightest star to the right of the meteor streak, while the constellation Leo and the shower's radiant point lie well above the field of view. Reports for this year's Leonids suggest the peak activity briefly exceeded 120 meteors per hour, but rates were typically much lower for many locations.",
-      "hdurl": "https://apod.nasa.gov/apod/image/0911/LeonidSunriseMeteor_Rowell_big.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "Leonid over Mono Lake",
-      "url": "https://apod.nasa.gov/apod/image/0911/LeonidSunriseMeteor_Rowell900.jpg"
-    },
-    {
-      "id": 492,
-      "copyright": "\nJerry Zhang (left), \nBaolong Chen (photographer) & Amber Zhang (right)\n",
-      "date": "2023-10-16",
-      "explanation": "She knew everything but the question. She was well aware that there would be a complete annular eclipse of the Sun visible from their driving destination: Lake Abert in Oregon.  She knew that the next ring-of-fire eclipse would occur in the USA only in 16 more years, making this a rare photographic opportunity.  She was comfortable with the plan: that she and her boyfriend would appear in front of the eclipse in silhouette, sometimes alone, and sometimes together.  She knew that the annular phase of this eclipse would last only a few minutes and she helped in the many hours of planning.  She could see their friend who set up the camera about 400 meters away at the bottom of a ridge.  What she didn't know was the question she would be asked. But she did know the answer: \"yes\".   Album: Selected eclipse images sent in to APOD",
-      "hdurl": "https://apod.nasa.gov/apod/image/2310/AnnularProposal_Zhang_3500.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "Eclipse Rings",
-      "url": "https://apod.nasa.gov/apod/image/2310/AnnularProposal_Zhang_960.jpg"
-    },
-    {
-      "id": 17,
-      "copyright": "Mike Siniscalchi",
-      "date": "2009-10-09",
-      "explanation": "Lurking behind dust and stars near the plane of our Milky Way Galaxy, IC 10 is a mere 2.3 million light-years distant. Its light dimmed by the intervening dust, the irregular dwarf galaxy still shows off vigorous star-forming regions that shine with a telltale reddish glow in this colorful skyscape. In fact, also a member of the Local Group of galaxies, IC 10 is the closest known starburst galaxy. Compared to other Local Group galaxies, IC 10 has a large population of newly formed stars that are massive and intrinsically very bright, including a luminous X-ray binary star system thought to contain a black hole. Located within the boundaries of the northern constellation Cassiopeia, IC 10 is about 5,000 light-years across.",
-      "hdurl": "https://apod.nasa.gov/apod/image/0910/ic10F_MSiniscalchi.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "Starburst Galaxy IC 10",
-      "url": "https://apod.nasa.gov/apod/image/0910/ic10L_MSiniscalchi_c600.jpg"
-    },
-    {
-      "title": "Test title",
-      "hdurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.a0a_nEwUeKmUtjgGwIa9MgHaE8%26pid%3DApi&f=1&ipt=2bb8a4dd68eea229b49fffa92877af128a6878fbfd2ce1690212e66f7dbe284d&ipo=images",
-      "explanation": "Test explanation",
-      "date": "Test date",
-      "id": 495
-    }
-  ],
+  "favorites": [],
   "snapshots": [
     {
       "id": 492,
@@ -879,16 +817,6 @@
       "url": "https://apod.nasa.gov/apod/image/2207/JupiterRing_WebbSchmidt_1080.jpg"
     },
     {
-      "id": 76,
-      "date": "2006-12-04",
-      "explanation": "Plumes of hot gas shoot across the surface on even an average day on the Sun.   Such volatile activity was captured in dramatic detail recently by the new Hinode satellite launched by Japan in late September.   Near the horizon, active regions around a sunspot eject hot plasma along the magnetic field lines that connect the sunspot to surrounding regions in the solar atmosphere.  Bright regions are hotter and more active.  The bubbling granularity and continuous activity of the Sun's photosphere is visible in the foreground.   This frame  from the movie is in representative color and covers a solar region of about 8,000 kilometers. (Note: To download the full MPG movie file, click on the picture.)",
-      "hdurl": "https://apod.nasa.gov/apod/image/0612/sunaction_hinode.mpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "Movie: The Active Sun",
-      "url": "https://apod.nasa.gov/apod/image/0612/sunaction_hinode.jpg"
-    },
-    {
       "id": 77,
       "date": "2019-11-27",
       "explanation": "Is this one galaxy or two?  This question came to light in 1950 when astronomer Arthur Hoag chanced upon this unusual extragalactic object.  On the outside is a ring dominated by bright blue stars, while near the center lies a ball of much redder stars that are likely much older.  Between the two is a gap that appears almost completely dark.  How Hoag's Object formed, including its nearly perfectly round ring of stars and gas, remains unknown.  Genesis hypotheses include a galaxy collision billions of years ago and the gravitational effect of a central bar that has since vanished. The featured photo was taken by the Hubble Space Telescope and recently reprocessed using an artificially intelligent de-noising algorithm.  Observations in radio waves indicate that Hoag's Object has not accreted a smaller galaxy in the past billion years.  Hoag's Object spans about 100,000 light years and lies about 600 million light years away toward the constellation of the Snake (Serpens).  Many galaxies far in the distance are visible toward the right, while coincidentally, visible in the gap at about seven o'clock, is another but more distant ring galaxy.",
@@ -1271,16 +1199,6 @@
       "service_version": "v1",
       "title": "Planetary Nebula NGC 7027 in Infrared",
       "url": "https://apod.nasa.gov/apod/image/9803/ngc7027_hst.jpg"
-    },
-    {
-      "id": 114,
-      "copyright": "Chris Kotsiopoulos",
-      "date": "2011-05-04",
-      "explanation": "If you watch the horizon at just the right place and at just the right time, you can witness some spectacular juxtapositions between Earth and sky. In the above video, stars, the Moon, and even a partially eclipsed Sun were recorded rising and setting over photogenic landmarks in Greece. The inspiring video features effects on star trails that are pretty but somewhat deceiving, as stars will typically remain at nearly the same brightness as the Earth turns beneath them. Also, the time lapse nature of part of the video causes clouds to appear to jump about and fade in an unfamiliar fashion. Several stills of these scenes have appeared on APOD previously, including the partial solar eclipse over the Temple of Poseidon, cloud and star trails over a deserted church, and star trails over an old ship. Other foreground venues include an old church in Peloponnese, a stone bridge in Ioannina, a Frankish Castle in Euboea, and a picturesque sunset above Lycabettus Hill, Athens.",
-      "media_type": "video",
-      "service_version": "v1",
-      "title": "Celestial Trails over Greece",
-      "url": "https://player.vimeo.com/video/23152199?title=0&byline=0&portrait=0"
     },
     {
       "id": 115,
@@ -1739,16 +1657,6 @@
       "url": "https://apod.nasa.gov/apod/image/2010/SquidBat_Akar_960.jpg"
     },
     {
-      "id": 158,
-      "date": "2007-11-06",
-      "explanation": "Why does the Sun flare?  Unpredictably, our Sun unleashes tremendous flares expelling hot gas into the Solar System that can affect satellites, astronauts, and power grids on Earth.  This close up of an active region on the Sun that produced a powerful X-class flare was captured by the orbiting TRACE satellite. Clicking on the image should bring up a movie that shows the evolution of Active Region 9906 over about four hours.  The glowing gas flowing around the relatively stable magnetic field loops above the Sun's photosphere has a temperature of over ten million degrees Celsius. These flows occurred after violently unstable magnetic reconnection events above the Sun produced the flare.  Many things about solar active regions are not well understood including the presence of dark regions that appear to move inward during the movie.",
-      "hdurl": "https://apod.nasa.gov/apod/image/0711/ar9906_trace.mpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "An X Class Flare Region on the Sun",
-      "url": "https://apod.nasa.gov/apod/image/0711/ar9906_trace.jpg"
-    },
-    {
       "id": 159,
       "copyright": "\nAxel Mellinger\n",
       "date": "2003-04-04",
@@ -1913,15 +1821,6 @@
       "service_version": "v1",
       "title": "Painting with Jupiter",
       "url": "https://apod.nasa.gov/apod/image/1804/PIA21983JupiterLundh1024.jpg"
-    },
-    {
-      "id": 175,
-      "copyright": "\nCary & Michael Huang\n",
-      "date": "2012-03-12",
-      "explanation": "What does the universe look like on small scales? On large scales?  Humanity is discovering that the universe is a very different place on every proportion that has been explored. For example, so far as we know, every tiny proton is exactly the same, but every huge galaxy is different. On more familiar scales, a small glass table top to a human is a vast plane of strange smoothness to a dust mite -- possibly speckled with cell boulders. Not all scale lengths are well explored -- what happens to the smallest mist droplets you sneeze, for example, is a topic of active research -- and possibly useful to know to help stop the spread of disease. The above interactive flash animation, a modern version of the classic video Powers of Ten, is a new window to many of the known scales of our universe.  By moving the scroll bar across the bottom, you can explore a diversity of sizes, while clicking on different items will bring up descriptive information.",
-      "media_type": "other",
-      "service_version": "v1",
-      "title": "The Scale of the Universe - Interactive"
     },
     {
       "id": 176,
@@ -5172,15 +5071,6 @@
       "url": "https://apod.nasa.gov/apod/image/2211/Orion_Spacecraft_Earth_Views_20221116-1067.jpg"
     },
     {
-      "id": 488,
-      "copyright": "\nCary & Michael Huang\n",
-      "date": "2014-01-12",
-      "explanation": "What does the universe look like on small scales? On large scales?  Humanity is discovering that the universe is a very different place on every proportion that has been explored. For example, so far as we know, every tiny proton is exactly the same, but every huge galaxy is different. On more familiar scales, a small glass table top to a human is a vast plane of strange smoothness to a dust mite -- possibly speckled with cell boulders. Not all scale lengths are well explored -- what happens to the smallest mist droplets you sneeze, for example, is a topic of active research -- and possibly useful to know to help stop the spread of disease. The above interactive flash animation, a modern version of the classic video Powers of Ten, is a new window to many of the known scales of our universe.  By moving the scroll bar across the bottom, you can explore a diversity of sizes, while clicking on different items will bring up descriptive information.",
-      "media_type": "other",
-      "service_version": "v1",
-      "title": "The Scale of the Universe - Interactive"
-    },
-    {
       "id": 489,
       "copyright": "\nRoyal \nObservatory Edinburgh, Anglo-Australian Observatory, and AURA\n\n",
       "date": "1995-12-01",
@@ -5212,10 +5102,10 @@
       "url": "https://apod.nasa.gov/apod/image/0203/nmars_odyssey.jpg"
     },
     {
-      "title": "Milky Way",
-      "hdurl": "https://live.staticflickr.com/65535/52211883534_f45cb76810_z.jpg",
-      "explanation": "This is a dope pic of the Milky Way",
-      "date": "10-18-2023",
+      "title": "test",
+      "hdurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.a0a_nEwUeKmUtjgGwIa9MgHaE8%26pid%3DApi&f=1&ipt=2bb8a4dd68eea229b49fffa92877af128a6878fbfd2ce1690212e66f7dbe284d&ipo=images",
+      "explanation": "test",
+      "date": "test",
       "id": 494
     }
   ]

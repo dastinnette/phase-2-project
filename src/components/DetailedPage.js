@@ -21,13 +21,15 @@ function DetailedPage(){
             navigate("/")
         })
     }
+    let imgCheck;
+    if (snapshot?.media_type === "video") {
+        imgCheck = (<iframe className="detail-image" src={snapshot?.url} alt={snapshot?.title}  />)
+    } else {imgCheck = (<img className="detail-image" src={snapshot?.hdurl} alt={snapshot?.title}/>)
+    } 
     return(
         <div>
             <div>
-                <img className="detail-image"
-                src={snapshot?.hdurl}
-                alt={snapshot?.title}
-            />
+                {imgCheck}
                 <h1 className="detail-title">{snapshot?.title}</h1>
                 <p className="detail-date">{snapshot?.date}</p>
                 <p className="detail-explanation">{snapshot?.explanation}</p>
