@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 
 function ItemCard({ snapshot }){
-    const { id, copyright, date, explanation, hdurl, title } = snapshot
+    const { id, date, hdurl, title } = snapshot
     const navigate = useNavigate()
     function handleImageClick(){
         navigate(`/Gallery/${id}`)
