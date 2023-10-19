@@ -13,7 +13,7 @@ function NavBar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <NavLink className="nav-links" to={"/Gallery"} >Gallery</NavLink>
-                        <NavLink className="nav-links" to={"/New"} >Add to gallery</NavLink>
+                        <NavLink className="nav-links" to={"/New"} >Add to Gallery</NavLink>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

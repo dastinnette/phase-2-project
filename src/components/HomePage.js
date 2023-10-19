@@ -63,9 +63,10 @@ function HomePage() {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             color: "#00B8A9",
-        }}>
-            <h1>Welcome to StarViewer</h1>
-             <p>checkout our {<NavLink className="nav-links" to={"/Gallery"}>Gallery</NavLink>}and come back for a treat 🔭</p>
+        }}> 
+            <br></br>
+            <h1>Welcome to Starviews</h1>
+             <p>checkout our {<NavLink className="home-link" to={"/Gallery"}>Gallery</NavLink>} and come back for a treat 🔭</p>
             <div id="image-track" className="image-track" style={{
           transform: `translate(${percentage}%, -50%)`,
         }}>
