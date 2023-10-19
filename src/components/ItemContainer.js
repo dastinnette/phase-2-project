@@ -21,14 +21,56 @@ function ItemContainer() {
     ))
 
     return(
-        <ul className='item-container'>
-            <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
-            <Container>
-                <Row>
-                    {renderSnapShots}
-                </Row>
-            </Container>
-        </ul>
+        <div>
+            <ul className='item-container'>
+                <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
+                <Container>
+                    <Row>
+                        {renderSnapShots}
+                    </Row>
+                </Container>
+            </ul>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+        </div>
     );
 }
 

@@ -26,7 +26,6 @@ function App() {
     snapshots,
     searchValue,
     onNewSnapshot,
-    searchValue,
     setSearchValue,
   }
   return (
