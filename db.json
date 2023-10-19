@@ -1,4 +1,67 @@
 {
+  "favorites": [
+    {
+      "id": 2,
+      "copyright": "Mike Rosinski",
+      "date": "2011-08-05",
+      "explanation": "Fix your digital camera to a tripod, start a long series of exposures, and you too can record star trails. The concentric arcs traced by the stars as planet Earth rotates on its axis often produce dreamlike scenes in otherwise familiar situations. Fall asleep, though, and the results might surprise you. Setting up on a summer night, photographer Mike Rosinski began his exposures, initially planning to capture about 45-55 minutes worth of star trails from his yard in Hartland, Michigan, USA. But he dozed, only to awaken some 3 hours later to find his camera had continued to run until the battery died. Composing the resulting images, the graceful concentric star trails were expected, along with light from a late rising Moon glinting on windows. Still, as he slept on the warm night a blizzard of yellow streaks flooded the scene, not left by fairies but fireflies.",
+      "hdurl": "https://apod.nasa.gov/apod/image/1108/FirefliesStartrails_rosinski.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "A Summer Night's Dream",
+      "url": "https://apod.nasa.gov/apod/image/1108/FirefliesStartrails_rosinski900.jpg"
+    },
+    {
+      "id": 9,
+      "date": "2017-12-28",
+      "explanation": "Massive stars in our Milky Way Galaxy live spectacular lives.  Collapsing from vast cosmic clouds, their nuclear furnaces ignite and create heavy elements in their cores. After a few million years, the enriched material is blasted back into interstellar space where star formation can begin anew. The expanding debris cloud known as Cassiopeia A is an example of this final phase of the stellar life cycle. Light from the explosion which created this supernova remnant would have been first seen in planet Earth's sky about 350 years ago, although it took that light about 11,000 years to reach us. This false-color Chandra X-ray Observatory image shows the still hot filaments and knots in the Cassiopeia A remnant. High-energy emission from specific elements has been color coded, silicon in red, sulfur in yellow, calcium in green and iron in purple, to help astronomers explore the recycling of our galaxy's star stuff - Still expanding, the blast wave is seen as the blue outer ring. The sharp X-ray image, spans about 30 light-years at the estimated distance of Cassiopeia A. The bright speck near the center is a neutron star, the incredibly dense, collapsed remains of the massive stellar core.",
+      "hdurl": "https://apod.nasa.gov/apod/image/1712/casa_life.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Recycling Cassiopeia A",
+      "url": "https://apod.nasa.gov/apod/image/1712/casa_life.jpg"
+    },
+    {
+      "id": 18,
+      "copyright": "Tony Rowell",
+      "date": "2009-11-19",
+      "explanation": "erie spires of rock rise from shore of Mono Lake in the foreground of this early morning skyscape. The salty, mineral-laden lake is located in California's eastern Sierra Nevada mountain range and the spindly rock formations are naturally formed limestone towers called tufa. In the scene, recorded near the peak of the annual Leonid meteor shower (now subsiding) on November 17th, a meteor trails through the frigid predawn sky. Arcturus is the brightest star to the right of the meteor streak, while the constellation Leo and the shower's radiant point lie well above the field of view. Reports for this year's Leonids suggest the peak activity briefly exceeded 120 meteors per hour, but rates were typically much lower for many locations.",
+      "hdurl": "https://apod.nasa.gov/apod/image/0911/LeonidSunriseMeteor_Rowell_big.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Leonid over Mono Lake",
+      "url": "https://apod.nasa.gov/apod/image/0911/LeonidSunriseMeteor_Rowell900.jpg"
+    },
+    {
+      "id": 492,
+      "copyright": "\nJerry Zhang (left), \nBaolong Chen (photographer) & Amber Zhang (right)\n",
+      "date": "2023-10-16",
+      "explanation": "She knew everything but the question. She was well aware that there would be a complete annular eclipse of the Sun visible from their driving destination: Lake Abert in Oregon.  She knew that the next ring-of-fire eclipse would occur in the USA only in 16 more years, making this a rare photographic opportunity.  She was comfortable with the plan: that she and her boyfriend would appear in front of the eclipse in silhouette, sometimes alone, and sometimes together.  She knew that the annular phase of this eclipse would last only a few minutes and she helped in the many hours of planning.  She could see their friend who set up the camera about 400 meters away at the bottom of a ridge.  What she didn't know was the question she would be asked. But she did know the answer: \"yes\".   Album: Selected eclipse images sent in to APOD",
+      "hdurl": "https://apod.nasa.gov/apod/image/2310/AnnularProposal_Zhang_3500.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Eclipse Rings",
+      "url": "https://apod.nasa.gov/apod/image/2310/AnnularProposal_Zhang_960.jpg"
+    },
+    {
+      "id": 17,
+      "copyright": "Mike Siniscalchi",
+      "date": "2009-10-09",
+      "explanation": "Lurking behind dust and stars near the plane of our Milky Way Galaxy, IC 10 is a mere 2.3 million light-years distant. Its light dimmed by the intervening dust, the irregular dwarf galaxy still shows off vigorous star-forming regions that shine with a telltale reddish glow in this colorful skyscape. In fact, also a member of the Local Group of galaxies, IC 10 is the closest known starburst galaxy. Compared to other Local Group galaxies, IC 10 has a large population of newly formed stars that are massive and intrinsically very bright, including a luminous X-ray binary star system thought to contain a black hole. Located within the boundaries of the northern constellation Cassiopeia, IC 10 is about 5,000 light-years across.",
+      "hdurl": "https://apod.nasa.gov/apod/image/0910/ic10F_MSiniscalchi.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Starburst Galaxy IC 10",
+      "url": "https://apod.nasa.gov/apod/image/0910/ic10L_MSiniscalchi_c600.jpg"
+    },
+    {
+      "title": "Test title",
+      "hdurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.a0a_nEwUeKmUtjgGwIa9MgHaE8%26pid%3DApi&f=1&ipt=2bb8a4dd68eea229b49fffa92877af128a6878fbfd2ce1690212e66f7dbe284d&ipo=images",
+      "explanation": "Test explanation",
+      "date": "Test date",
+      "id": 495
+    }
+  ],
   "snapshots": [
     {
       "id": 492,

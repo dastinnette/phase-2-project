@@ -8,12 +8,16 @@ import NavBar from './NavBar';
 function App() {
   const [snapshots, setSnapshots] = useState([])
   const [searchValue,setSearchValue]=useState("")
+  const [favoritesBar,setFavoritesBar] = useState([])
   const getSnapshots = () => {
+    fetch("http://localhost:6001/favorites")
+      .then((r)=>r.json())
+      .then((favoritesArray) => setFavoritesBar(favoritesArray))
     fetch("http://localhost:6001/snapshots")
       .then((response) => response.json())
       .then((snapshotsArray) => setSnapshots(snapshotsArray))
+    
   }
-
   useEffect(getSnapshots, [])
 
   function onNewSnapshot(newSnapshot) {
@@ -27,6 +31,8 @@ function App() {
     searchValue,
     onNewSnapshot,
     setSearchValue,
+    favoritesBar,
+    setFavoritesBar,
   }
   return (
     <div className="App">
