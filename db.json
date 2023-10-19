@@ -1,15 +1,15 @@
 {
   "favorites": [
     {
-      "id": 492,
-      "copyright": "\nJerry Zhang (left), \nBaolong Chen (photographer) & Amber Zhang (right)\n",
-      "date": "2023-10-16",
-      "explanation": "She knew everything but the question. She was well aware that there would be a complete annular eclipse of the Sun visible from their driving destination: Lake Abert in Oregon.  She knew that the next ring-of-fire eclipse would occur in the USA only in 16 more years, making this a rare photographic opportunity.  She was comfortable with the plan: that she and her boyfriend would appear in front of the eclipse in silhouette, sometimes alone, and sometimes together.  She knew that the annular phase of this eclipse would last only a few minutes and she helped in the many hours of planning.  She could see their friend who set up the camera about 400 meters away at the bottom of a ridge.  What she didn't know was the question she would be asked. But she did know the answer: \"yes\".   Album: Selected eclipse images sent in to APOD",
-      "hdurl": "https://apod.nasa.gov/apod/image/2310/AnnularProposal_Zhang_3500.jpg",
+      "id": 1,
+      "copyright": "\nOlivier Staiger\n",
+      "date": "1997-09-03",
+      "explanation": "Location is everything, especially if you want to see a Solar Eclipse. These fleeting events are only visible to those in the path of the Moon's shadow as it races across the Earth. This path is usually less than 200 miles wide while covering only a fraction of a percent of the Earth's surface. And chances are, much of it will be over water. This view of the September 2nd eclipse was recorded by Olivier Staiger from Kingscote, Kangaroo Island, South Australia. He used a video camera equipped with a teleconverter and solar filter. This Solar Eclipse was a partial one, seen here near maximum for Staiger's location. The deepest eclipse - almost 90 percent of the Sun's surface was eclipsed by the Moon - was visible only from Antarctica. Want to see a total eclipse of the Sun? Locate yourself near the northern tip of South America on February 26, 1998.",
+      "hdurl": "https://apod.nasa.gov/apod/image/9709/soleclipse1_staiger_big.jpg",
       "media_type": "image",
       "service_version": "v1",
-      "title": "Eclipse Rings",
-      "url": "https://apod.nasa.gov/apod/image/2310/AnnularProposal_Zhang_960.jpg"
+      "title": "A Partial Eclipse in Southern Skies",
+      "url": "https://apod.nasa.gov/apod/image/9709/soleclipse1_staiger.jpg"
     },
     {
       "id": 493,
@@ -23,15 +23,36 @@
       "url": "https://apod.nasa.gov/apod/image/2310/Vincenzo_Mirabella_20210529_134459_1024px.jpg"
     },
     {
-      "id": 1,
-      "copyright": "\nOlivier Staiger\n",
-      "date": "1997-09-03",
-      "explanation": "Location is everything, especially if you want to see a Solar Eclipse. These fleeting events are only visible to those in the path of the Moon's shadow as it races across the Earth. This path is usually less than 200 miles wide while covering only a fraction of a percent of the Earth's surface. And chances are, much of it will be over water. This view of the September 2nd eclipse was recorded by Olivier Staiger from Kingscote, Kangaroo Island, South Australia. He used a video camera equipped with a teleconverter and solar filter. This Solar Eclipse was a partial one, seen here near maximum for Staiger's location. The deepest eclipse - almost 90 percent of the Sun's surface was eclipsed by the Moon - was visible only from Antarctica. Want to see a total eclipse of the Sun? Locate yourself near the northern tip of South America on February 26, 1998.",
-      "hdurl": "https://apod.nasa.gov/apod/image/9709/soleclipse1_staiger_big.jpg",
+      "id": 6,
+      "date": "2015-06-13",
+      "explanation": "Shortly before Mars' June 2015 conjunction, the Curiosity Rover celebrated 1000 sols on the red planet. After its August 5, 2012 landing, Curiosity's 1000th sol or martian day on the surface corresponded to planet Earth's calendar date May 31, 2015. Because the line-of-sight to Mars is close to the Sun near the conjunction, radio communications are affected and the six-wheeled, car-sized robotic rover cautiously remains parked at this spot for now. The view looks back toward the stomping grounds for Curiosity's nearly 10.6 kilometer trek so far, with the hazy rim of Gale Crater looming in the distance. The mosaicked panorama was constructed with images from navigation cameras taken on Curiosity's sol 997.",
+      "hdurl": "https://apod.nasa.gov/apod/image/1506/CuriositySol997_2a_KenKremer.jpg",
       "media_type": "image",
       "service_version": "v1",
-      "title": "A Partial Eclipse in Southern Skies",
-      "url": "https://apod.nasa.gov/apod/image/9709/soleclipse1_staiger.jpg"
+      "title": "1000 Sols",
+      "url": "https://apod.nasa.gov/apod/image/1506/CuriositySol997_2a_KenKremer1280x600.jpg"
+    },
+    {
+      "id": 13,
+      "copyright": "R. Jay Gabany",
+      "date": "2009-05-08",
+      "explanation": "This colorful telescopic skyscape is filled with galaxies that lie nearly 250 million light-years away, the galaxies of the Perseus cluster. Their extended and sometimes surprising shapes are seen beyond a veil of foreground stars in our own Milky Way. Ultimately consisting of over a thousand galaxies, the cluster is filled with yellowish elliptical and lenticular galaxies, like those scattered throughout this view of the cluster's central region. Notably, the large galaxy at the left is the massive and bizarre-looking NGC 1275. A prodigious source of high-energy emission, active galaxy NGC 1275 dominates the Perseus cluster, accreting matter as entire galaxies fall into it and feed the supermassive black hole at the galaxy's core. Of course, spiral galaxies also inhabit the Perseus cluster, including the small, face-on spiral NGC 1268, right of picture center. The bluish spot on the outskirts of NGC 1268 is supernova SN 2008fg. At the estimated distance of the Perseus galaxy cluster, this field spans about 1.5 million light-years.",
+      "hdurl": "https://apod.nasa.gov/apod/image/0905/PerseusCluster_gabany_abell426.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Galaxies of the Perseus Cluster",
+      "url": "https://apod.nasa.gov/apod/image/0905/PerseusCluster_gabany_abell426H600.jpg"
+    },
+    {
+      "id": 12,
+      "copyright": "Jason Guenzel",
+      "date": "2022-02-19",
+      "explanation": "The spiky stars in the foreground of this backyard telescopic frame are well within our own Milky Way Galaxy. But the two eye-catching galaxies lie far beyond the Milky Way, at a distance of over 300 million light-years. Their distorted appearance is due to gravitational tides as the pair engage in close encounters. Cataloged as Arp 273 (also as UGC 1810), the galaxies do look peculiar, but interacting galaxies are now understood to be common in the universe. Nearby, the large spiral Andromeda Galaxy is known to be some 2 million light-years away and approaching the Milky Way. The peculiar galaxies of Arp 273 may offer an analog of their far future encounter. Repeated galaxy encounters on a cosmic timescale can ultimately result in a merger into a single galaxy of stars. From our perspective, the bright cores of the Arp 273 galaxies are separated by only a little over 100,000 light-years.",
+      "hdurl": "https://apod.nasa.gov/apod/image/2202/JasonGuenzelARP273.jpg",
+      "media_type": "image",
+      "service_version": "v1",
+      "title": "Peculiar Galaxies of Arp 273",
+      "url": "https://apod.nasa.gov/apod/image/2202/JasonGuenzelARP273.jpg"
     }
   ],
   "snapshots": [

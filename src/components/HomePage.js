@@ -4,7 +4,7 @@ import FavoriteItem from "./FavoriteItem";
 function HomePage() {
     const { favoritesBar } = useOutletContext();
 
-    const renderSnapShots = favoritesBar.map((favorite) => (
+    const renderFavoriteBar = favoritesBar.map((favorite) => (
         <FavoriteItem
             key={favorite.id}
             favorite={favorite}
@@ -19,9 +19,9 @@ function HomePage() {
             color: "#00B8A9",
         }}>
             <h1>Welcome to StarViewer</h1>
-            <p>checkout our gallery and come back</p>
+            <p>checkout our gallery, favorite a few things, and come on back for a treat 🔭</p>
             <div id="image-track" className="image-track">
-                {renderSnapShots}
+                {renderFavoriteBar}
             </div>
         </main>
     )
