@@ -1,6 +1,8 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useOutletContext } from "react-router-dom";
 import FavoriteItem from "./FavoriteItem";
+import { NavLink } from 'react-router-dom';
+
 function HomePage() {
     //start of code for track
     const [mouseDownAt, setMouseDownAt] = useState(0);
@@ -63,7 +65,7 @@ function HomePage() {
             color: "#00B8A9",
         }}>
             <h1>Welcome to StarViewer</h1>
-            <p>checkout our gallery, favorite a few things, and come on back for a treat 🔭</p>
+             <p>checkout our {<NavLink className="nav-links" to={"/Gallery"}>Gallery</NavLink>}and come back for a treat 🔭</p>
             <div id="image-track" className="image-track" style={{
           transform: `translate(${percentage}%, -50%)`,
         }}>

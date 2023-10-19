@@ -52,12 +52,22 @@
 
 .nav-links {
   padding-right: 1em;
+  color:#FFD100;
 }
-
+.active {
+  color:#A600FF;
+}
 .input-form {
   max-width: 40%;
   margin-left: 30%;
   margin-top: 5em;
+  margin-bottom: 5em;
+  text-align: left;
+}
+
+.input-form-header {
+  margin-bottom: 1em;
+  color: #FFFFFF;
 }
 
 .detail-image {
@@ -74,6 +84,10 @@
   color: #FFFFFF;
 }
 
+.description-color {
+  color: #FFFFFF;
+}
+
 .detail-title {
   padding-top: 1em;
   color: #FFFFFF;
@@ -81,6 +95,7 @@
 .detail-date {
   color: #FFFFFF;
 }
+
 #image-track {
   display: flex;
   gap: 4vmin;
@@ -97,3 +112,8 @@
   object-fit: cover;
   object-position: 100% center;
 }
+
+.img-preview {
+  max-width: 85%;
+}
+
