@@ -50,20 +50,20 @@ function NewForm() {
     return(
       <Form className="input-form" onSubmit={handleSubmit}>
         <h1 className="input-form-header">Submit your discovery to NASA's APOD collection!</h1>
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 description-color">
           <Form.Label>Image URL</Form.Label>
           <Form.Control type="text" name="hdurl" placeholder="Image preview will appear below" value={hdurl} onChange={handleChange}/>
           <img src={hdurl} alt={title} className="img-preview"/>
         </Form.Group>
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 description-color">
           <Form.Label>Snapshot title</Form.Label>
           <Form.Control type="text" name="title" placeholder="e.g. Stunning Galaxies from the Orion Cluster..." value={title} onChange={handleChange}/>
         </Form.Group>
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 description-color">
           <Form.Label>Explanation</Form.Label>
           <Form.Control as="textarea" rows={3} name="explanation" placeholder="e.g. What is the story behind this photo?" value={explanation} onChange={handleChange}/>
         </Form.Group>
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 description-color">
           <Form.Label>Date</Form.Label>
           <Form.Control type="text" name="date" placeholder="YYYY-MM-DD" value={date} onChange={handleChange}/>
         </Form.Group>
