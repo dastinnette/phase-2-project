@@ -1,49 +1,5 @@
 {
-  "favorites": [
-    {
-      "id": 1,
-      "copyright": "\nOlivier Staiger\n",
-      "date": "1997-09-03",
-      "explanation": "Location is everything, especially if you want to see a Solar Eclipse. These fleeting events are only visible to those in the path of the Moon's shadow as it races across the Earth. This path is usually less than 200 miles wide while covering only a fraction of a percent of the Earth's surface. And chances are, much of it will be over water. This view of the September 2nd eclipse was recorded by Olivier Staiger from Kingscote, Kangaroo Island, South Australia. He used a video camera equipped with a teleconverter and solar filter. This Solar Eclipse was a partial one, seen here near maximum for Staiger's location. The deepest eclipse - almost 90 percent of the Sun's surface was eclipsed by the Moon - was visible only from Antarctica. Want to see a total eclipse of the Sun? Locate yourself near the northern tip of South America on February 26, 1998.",
-      "hdurl": "https://apod.nasa.gov/apod/image/9709/soleclipse1_staiger_big.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "A Partial Eclipse in Southern Skies",
-      "url": "https://apod.nasa.gov/apod/image/9709/soleclipse1_staiger.jpg"
-    },
-    {
-      "id": 493,
-      "copyright": "\nVincenzo Mirabella (photographer)",
-      "date": "2023-10-14",
-      "explanation": "Want to see a ring around the Sun? It's easy to do in daytime skies around the world. Created by randomly oriented ice crystals in thin high cirrus clouds, circular 22 degree halos are visible much more often than rainbows. This one was captured by smart phone photography on May 29, 2021 near Rome, Italy. Carefully blocking the Sun, for example with a finger tip, is usually all that it takes to reveal the common bright halo ring. The halo's characteristic angular radius is about equal to the span of your hand, thumb to little finger, at the end of your outstretched arm. Want to see a ring of fire eclipse? That's harder. The spectacular annular phase of today's (October 14) solar eclipse, known as a ring of fire, is briefly visible only when standing along the Moon's narrow shadow track that passes over limited parts of North, Central, and South America. The solar eclipse is partial though, when seen from broader regions throughout the Americas.",
-      "hdurl": "https://apod.nasa.gov/apod/image/2310/Vincenzo_Mirabella_20210529_134459_1024px.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "Circular Sun Halo",
-      "url": "https://apod.nasa.gov/apod/image/2310/Vincenzo_Mirabella_20210529_134459_1024px.jpg"
-    },
-    {
-      "id": 6,
-      "date": "2015-06-13",
-      "explanation": "Shortly before Mars' June 2015 conjunction, the Curiosity Rover celebrated 1000 sols on the red planet. After its August 5, 2012 landing, Curiosity's 1000th sol or martian day on the surface corresponded to planet Earth's calendar date May 31, 2015. Because the line-of-sight to Mars is close to the Sun near the conjunction, radio communications are affected and the six-wheeled, car-sized robotic rover cautiously remains parked at this spot for now. The view looks back toward the stomping grounds for Curiosity's nearly 10.6 kilometer trek so far, with the hazy rim of Gale Crater looming in the distance. The mosaicked panorama was constructed with images from navigation cameras taken on Curiosity's sol 997.",
-      "hdurl": "https://apod.nasa.gov/apod/image/1506/CuriositySol997_2a_KenKremer.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "1000 Sols",
-      "url": "https://apod.nasa.gov/apod/image/1506/CuriositySol997_2a_KenKremer1280x600.jpg"
-    },
-    {
-      "id": 13,
-      "copyright": "R. Jay Gabany",
-      "date": "2009-05-08",
-      "explanation": "This colorful telescopic skyscape is filled with galaxies that lie nearly 250 million light-years away, the galaxies of the Perseus cluster. Their extended and sometimes surprising shapes are seen beyond a veil of foreground stars in our own Milky Way. Ultimately consisting of over a thousand galaxies, the cluster is filled with yellowish elliptical and lenticular galaxies, like those scattered throughout this view of the cluster's central region. Notably, the large galaxy at the left is the massive and bizarre-looking NGC 1275. A prodigious source of high-energy emission, active galaxy NGC 1275 dominates the Perseus cluster, accreting matter as entire galaxies fall into it and feed the supermassive black hole at the galaxy's core. Of course, spiral galaxies also inhabit the Perseus cluster, including the small, face-on spiral NGC 1268, right of picture center. The bluish spot on the outskirts of NGC 1268 is supernova SN 2008fg. At the estimated distance of the Perseus galaxy cluster, this field spans about 1.5 million light-years.",
-      "hdurl": "https://apod.nasa.gov/apod/image/0905/PerseusCluster_gabany_abell426.jpg",
-      "media_type": "image",
-      "service_version": "v1",
-      "title": "Galaxies of the Perseus Cluster",
-      "url": "https://apod.nasa.gov/apod/image/0905/PerseusCluster_gabany_abell426H600.jpg"
-    }
-  ],
+  "favorites": [],
   "snapshots": [
     {
       "id": 492,
