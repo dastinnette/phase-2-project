@@ -23,14 +23,29 @@ function DetailedPage(){
     }
     return(
         <div>
-            <img className="detail-image"
-            src={snapshot?.hdurl}
-            alt={snapshot?.title}
-        />
-        <h1 className="detail-title">{snapshot?.title}</h1>
-        <p className="detail-date">{snapshot?.date}</p>
-        <p className="detail-explanation">{snapshot?.explanation}</p>
-        <button onClick={handlefavorite}>Favorite Me!</button>
+            <div>
+                <img className="detail-image"
+                src={snapshot?.hdurl}
+                alt={snapshot?.title}
+            />
+                <h1 className="detail-title">{snapshot?.title}</h1>
+                <p className="detail-date">{snapshot?.date}</p>
+                <p className="detail-explanation">{snapshot?.explanation}</p>
+                <button onClick={handlefavorite}>Favorite Me!</button>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
     </div>
     )
 }

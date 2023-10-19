@@ -30,7 +30,6 @@ function App() {
     snapshots,
     searchValue,
     onNewSnapshot,
-    searchValue,
     setSearchValue,
     favoritesBar,
     setFavoritesBar,
