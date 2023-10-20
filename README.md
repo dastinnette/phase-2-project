@@ -23,6 +23,23 @@ Running the command `npm start` will start up a react page that brings you to ht
 
 Open the app in your browser with the command "npm start" to interact with the page and learn more about the wonders of space.
 
+### Tree
+
+Inside the tree youll see examples of routes: (/route). you can also get a better idea at line 13 to 34 of index.js
+
+You might also see a link that follows a route:[/link]
+
+Index.js - App.js(/)  ------------------NavBar-LINKS[/,/Gallery,/New]
+					   / |    \
+(/New)NewForm  |     Item Container(/Gallery)
+						   |        |			               \
+							 |	  ItemCard[/Gallery/:id]    \
+							 |				                     DetailedPage[/]
+							HomePage(/)[/Gallery]		
+							|
+							FavoriteItem
+
+
 ## Shout outs
 
 This project was created by [Mateusz Trybunia](https://github.com/Case652) and myself. We used...
