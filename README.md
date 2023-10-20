@@ -29,15 +29,15 @@ Inside the tree youll see examples of routes: (/route). you can also get a bette
 
 You might also see a link that follows a route:[/link]
 
-Index.js - App.js(/)  ------------------NavBar-LINKS[/,/Gallery,/New]
-					   / |    \
+Index.js - App.js(/)  ------------------NavBar-LINKS[/,/Gallery,/New
+............./ |    \
 (/New)NewForm  |     Item Container(/Gallery)
-						   |        |			               \
-							 |	  ItemCard[/Gallery/:id]    \
-							 |				                     DetailedPage[/]
-							HomePage(/)[/Gallery]		
-							|
-							FavoriteItem
+...............|        |	          \
+...............| ItemCard[/Gallery/:id]    \
+.................|	                   DetailedPage[/]
+.................HomePage(/)[/Gallery]		
+.................|
+.................FavoriteItem
 
 
 ## Shout outs
