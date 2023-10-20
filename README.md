@@ -31,14 +31,14 @@ You might also see a link that follows a route:[/link]
 
 ```
 Index.js - App.js(/)  ------------------NavBar-LINKS[/,/Gallery,/New
-............./ |    \
-(/New)NewForm  |     Item Container(/Gallery)
-...............|        |	          \
-...............| ItemCard[/Gallery/:id]    \
-.................|	                   DetailedPage[/]
-.................HomePage(/)[/Gallery]		
-.................|
-.................FavoriteItem
+              / |    \
+ (/New)NewForm  |     Item Container(/Gallery)
+                |        |	                   \
+                |     ItemCard[/Gallery/:id]     \
+                |	                             DetailedPage[/]
+                HomePage(/)[/Gallery]		
+                |
+                FavoriteItem
 ```
 
 ## Shout outs
