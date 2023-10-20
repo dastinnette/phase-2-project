@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Starviews
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Starviews is a Phase 2 project for [Flatiron School](https://flatironschool.com/). Its purpose is to expose users to NASA's APOD (astronomy photo of the day) API and allows them to contribute their interstellar discoveries as well. Starviews is a single page app built with React that accesses data from a db.json file using [json-sever](https://www.npmjs.com/package/json-server). 
 
-## Available Scripts
+This project also makes use of popular React hooks and client-side routing. We styled the app through a combination of [React Bootstrap](https://react-bootstrap.github.io/) and custom CSS.
 
-In the project directory, you can run:
+### Getting started
 
-### `npm start`
+To get this app running on your local machine, first **fork** a copy into your Github account then **clone** from that copy. Once you've opened the code files from your terminal, run the following commands to get json-server working...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install JSON Server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`npm install -g json-server`
 
-### `npm test`
+Start JSON Server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`json-server --watch db.json`
 
-### `npm run build`
+Now if you go to http://localhost:3000, you'll see the home page of our app.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open the app in your browser with the command "npm start" to interact with the page and learn more about the wonders of space.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Shout outs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created by [Mateusz Trybunia](https://github.com/Case652) and myself. We used...
