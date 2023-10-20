@@ -15,7 +15,11 @@ Install JSON Server:
 
 Start JSON Server:
 
-`json-server --watch db.json or `npm run server`
+`json-server --watch db.json` 
+
+or 
+
+`npm run server`
 
 ### FrontEnd
 
