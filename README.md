@@ -4,8 +4,9 @@ Starviews is a Phase 2 project for [Flatiron School](https://flatironschool.com/
 
 This project also makes use of popular React hooks and client-side routing. We styled the app through a combination of [React Bootstrap](https://react-bootstrap.github.io/) and custom CSS.
 
-### Getting started
+## Getting started
 
+### BackEnd
 To get this app running on your local machine, first **fork** a copy into your Github account then **clone** from that copy. Once you've opened the code files from your terminal, run the following commands to get json-server working...
 
 Install JSON Server:
@@ -14,12 +15,16 @@ Install JSON Server:
 
 Start JSON Server:
 
-`json-server --watch db.json`
+`json-server --watch db.json or `npm run server`
 
-Now if you go to http://localhost:3000, you'll see the home page of our app.
+### FrontEnd
+
+Running the command `npm start` will start up a react page that brings you to http://localhost:3000, you'll see the home page of our app.
 
 Open the app in your browser with the command "npm start" to interact with the page and learn more about the wonders of space.
 
-### Shout outs
+## Shout outs
 
 This project was created by [Mateusz Trybunia](https://github.com/Case652) and myself. We used...
+
+on lines 7 to 42 in HomePage.js and lines 105 to 120 in App.css, code from https://codepen.io/Hyperplexed/pen/MWXBRBp is used.
